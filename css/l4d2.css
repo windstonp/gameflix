@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans";
+}	
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .3s;
+	color: #fff;
+	z-index: 1;
+	background: rgba(14,11,22,0.8);
+	height: 100px;
+	padding: 10px 100px;
+	border-bottom: 2px solid rgba(71,23,246,0.8);
+}
+
+nav .logo a{
+	padding: 22px 20px;
+	height: 80px;
+	float: left;
+	font-size: 30px;
+	transition: .3s; 
+	color: rgb(71,23,246);
+	text-decoration: none;
+	font-family: Bebas;
+
+
+}
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	text-transform: uppercase;
+
+
+}
+
+nav ul li{
+	list-style: none;
+}
+nav ul li a{
+	color: #fff;
+	line-height: 80px;
+	color: #151515;
+	padding: 12px 30px;
+	text-decoration: none;
+	transition: .3s;
+	margin-left: 30px
+}
+
+}
+nav ul li a:focus{
+	outline: none;
+}
+nav ul li a.active{
+	background: #4717F6;
+	color: #fff;
+	border-radius: 6px;
+	text-shadow: 2px 2px 5px black, -2px -2px 5px black;
+}
+section.sec1 {
+	width: 100%;
+	height: 100vh;
+	background: url(img/l4d2.jpg);
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	
+}
+.content{
+	margin-top: 80px;
+
+}
+h4{
+	margin: 0px auto;
+	text-align: justify;
+	font-size: 20px;
+	color: #efdfdd;
+	font-family: Open sans;
+	text-shadow: 2px 2px 4px black, -2px -2px 4px black;
+	line-height: 30px;
+}
+#destaque{
+	position: absolute;
+	height: 350px;
+	width: 600px;
+	background: rgba(0,0,0,0.5);
+	top: 25%;
+	left: 5%;
+	border-radius: 10px;
+	border: 2px solid rgba(255,255,255,0.5);
+	padding: 10px;
+}
+
+#destaque h1{
+	text-align: center;
+	margin-top: 5%;
+	color: #EFDFDD;
+	text-shadow: 2px 2px 4px black, -2px -2px 4px black;
+	text-transform: uppercase;
+
+}
+#destaque img{
+	position: absolute;
+	top: 25%;
+	right: 15%;
+}
+
+#jogar{
+	text-shadow: 2px 2px 4px black, -2px -2px 4px black;
+	position: absolute;
+	top: 70%;
+	left: 40%;
+	border: 2px solid black;
+	width: 20%;
+	padding: 15px;
+	font-family: Open sans;
+	font-weight: bold;
+	color: #efdfdd;
+	border: 2px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	background: #4717F6;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+}
+p{
+	font-family: Open sans;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5%;
+	color: #EFDFDD;
+	text-shadow: 2px 2px 4px black, -2px -2px 4px black;
+}
